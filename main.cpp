@@ -65,8 +65,8 @@ int main() {
         exit(4);
       }
     }
-    // Teste visualizando a tabela
 
+    // Teste visualizando a tabela
     {
       const char* sql = "select * from tab";
       sqlite3_reset(stmt);
